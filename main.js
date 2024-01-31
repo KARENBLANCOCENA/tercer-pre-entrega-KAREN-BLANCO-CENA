@@ -4,7 +4,7 @@ const baseDeDatos = [
         id: 1,
         nombre: 'PAPAS',
         precio: 1000,
-        imagen: 'patata.jpg'
+        imagen: 'papas.jpg'
     },
     {
         id: 2,
@@ -16,19 +16,54 @@ const baseDeDatos = [
         id: 3,
         nombre: 'CALABAZA',
         precio: 2000,
-        imagen: 'calabacin.jpg'
+        imagen: 'calabaza.jpg'
     },
     {
         id: 4,
         nombre: 'FRUTILLAS',
         precio: 3000,
         imagen: 'fresas.jpg'
-    }
-
+    },
+    {
+        id: 5,
+        nombre: 'BANANAS',
+        precio: 4500,
+        imagen: 'bananas.jpg'
+    },
+    {
+        id: 6,
+        nombre: 'BATATAS',
+        precio: 4500,
+        imagen: 'batatas.jpg'
+    },
+    {
+        id: 7,
+        nombre: 'BROCOLI',
+        precio: 6500,
+        imagen: 'brocoli.jpg'
+    },
+    {
+        id: 8,
+        nombre: 'MANZANA',
+        precio: 4000,
+        imagen: 'manzana.jpg'
+    },
+    {
+        id: 9,
+        nombre: 'MANZANA VERDE',
+        precio: 3400,
+        imagen: 'manzanaverde.jpg'
+    },
+    {
+        id: 10,
+        nombre: 'LECHUGA',
+        precio: 3400,
+        imagen: 'lechuga.jpg'
+    },
 ];
 
 let carrito = [];
-const divisa = '€';
+const divisa = '$';
 const DOMitems = document.querySelector('#items');
 const DOMcarrito = document.querySelector('#carrito');
 const DOMtotal = document.querySelector('#total');
